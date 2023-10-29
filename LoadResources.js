@@ -4,6 +4,8 @@ var ResourcesLoaded = 0;
 
 function LoadResources(ImagePreview, ArrayListImageName, ArrayListObjectName){
 
+       setTimeout(function(){
+              
        alert(ResourceCount)
        
 ResourceCount=ResourceCount+1;
@@ -27,5 +29,7 @@ ResourcesLoaded = 45;
 }
 
 };
+
+       },500);
 
 }
