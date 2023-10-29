@@ -1,0 +1,1821 @@
+  body,html{ min-height: 100%; height: 100%;}
+
+	  .Splash{
+	  position:absolute;
+	  left:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  width:100%;
+	  height:100%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  background-size:100% 100%;
+	  z-index:5000;
+	  opacity:50%;
+	  }
+	  
+	  .Fundo{
+	  position:fixed;
+	  
+	  width:100%;
+	  height:100%;
+	  
+	  left:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  
+	  background-size:cover;
+	  
+	  visibility:hidden;
+	  
+	  }
+	  
+	  .ViewDesigner{
+	  position:fixed;
+	  
+	  width:100%;
+	  height:100%;
+	  
+	  left:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  
+	  display:table;
+	 
+	  background-image:url("/image/fundo.png");
+	  background-size:100%,100%;
+	  background-repeat:no-repeat;
+	  
+	  }
+	  
+	   .DesignTop{
+	 
+	  position:fixed;
+	  
+	  z-index:2009;
+	  
+	  width:100%;
+	  
+	  height:20%;
+	  
+	  
+	  background-repeat:no-repeat;
+	  background-size:100% 100%;
+	  background-position:center;
+	
+	  }
+	  
+	   .TopImage{
+	  width:60%;
+	  height:60%;
+	  
+	  background-repeat:no-repeat;
+	  background-size:60% 60%;
+	  background-position:center;
+	 
+	  border:0;
+	  margin:0;
+	  
+	  }
+	  
+	  .Telhado_1{
+	
+	  height:17%;
+	  width:100%;
+	
+	  height:20%;
+	  
+	 
+	  background-repeat:no-repeat;
+	  background-size:100% 100%;
+	  background-position:bottom;
+	  
+	  border:0;
+	  margin:0;
+	 
+	 
+	  }
+	  
+	  .VIEW_LISTAS{
+	
+	 height:50%;
+	 display:flex;
+	 justify-content:center;
+	 align-items:center;
+	 background-repeat:no-repeat;
+	 background-size:100% 100%;
+	 
+	
+	 border:0;
+	 margin:0;
+	
+	 }
+	 
+	 .DesignCenter{
+	  position:fixed;
+	  
+	  width:100%;
+	  height:100%;
+	  
+	  left:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  
+	  z-index:2008;
+	  
+	  display:flex;
+	  justify-content:center;
+	  align-items:center;
+	  
+	 
+	  pointer-events: none;
+	  }
+	  
+	 .LIST_SPACE{
+	 width:6%;
+	 background-color:red;
+	 }
+	  
+	 .LISTA_1{
+	 height:100%;
+	 width:24%;
+	 }
+	  
+	 .LISTA_2{
+	 height:100%;
+	 width:24%;
+	 }
+	  
+	 .LISTA_3{
+	 height:100%;
+	 width:24%;
+	 }
+	 
+	 .Bloco_fundo{
+	  width:100%;
+	  background-repeat:no-repeat;
+	  background-size:100% 100%;
+	  background-position:center;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  }
+	  
+	  .Bloco_brilho{
+	  width:100%;
+	  background-repeat:no-repeat;
+	  background-size:100% 100%;
+	  background-position:center;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  }
+	  
+	  
+	  .Bloco{
+	  width:100%;
+	  background-repeat:no-repeat;
+	  background-size:100px 100px;
+	  background-position:center;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  }
+	  
+	  .DesignBottom{
+	  position:fixed;
+	  
+	  z-index:2009;
+	  
+	  width:100%;
+	  height:30.5%;
+	  
+	  background-repeat:no-repeat;
+	  background-size:100% 100%;
+	  background-position:center;
+	  
+	  }
+	  
+	  .ViewInformation{
+	  width:100%;
+	  height:20%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  box-shadow: 0px 2px 10px 2px black;
+	  
+	  }
+	  
+	  .CardInfo{
+	  width:30%;
+	  height:50%;
+	  
+	  margin-left:3%;
+	  margin-right:3%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  background-color:#009D67FF;
+	  border-radius:10px;
+	  
+	  background-size:100% 100%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  
+	  }
+	  
+	  .CardInfoIcon{
+	  width:30%;
+	  height:80%;
+	  
+	  padding:5px;
+	  
+	  background-repeat:no-repeat;
+	  background-size:70%, 35%;
+	  background-position:center;
+	  
+	  }
+	  
+	  .CardInfoValor{
+	  width:80%;
+	  height:100%;
+	  
+	  font-size:30px;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  color:white;
+	  
+	  }
+	  
+	 .ViewViewButtonFunction{
+	  width:100%;
+	  height:60%;
+	  
+	  
+	
+	 background-size:100% 100%;
+	  
+	  }
+	  
+	  .ButtonFunction{
+	  width:20%;
+	  height:100%;
+	  
+	  background-repeat:no-repeat;
+	  background-size:70%,70%;
+	
+	  background-position:center;
+	  
+	  }
+	  
+	  .ViewButtonFunction{
+	  width:100%;
+	  
+	  height:50%;
+	  
+	  display:flex;
+	  flex-direction:table;
+	  justify-content:center;
+	  align-items:center;
+	  
+	 
+	  }
+	  
+	  .ButtonFunction{
+	  width:20%;
+	  height:100%;
+	  
+	  background-repeat:no-repeat;
+	  background-size:70%,70%;
+	  background-position:center;
+	  
+	  }
+	  
+	  
+	  .PLAY{
+	  width:20%;
+	  height:100%;
+	  
+	  background-image:url("/image/yin_yang_button.png");
+	  background-repeat:no-repeat;
+	  background-size:90%;
+	  background-position:center;
+	  
+	  background-color:transparent;
+	  
+	  border:none;
+	  }
+	  
+	  .PLAY_ANIMATED{
+	  width:100%;
+	  height:100%;
+	  
+	  background-repeat:no-repeat;
+	  background-size:90%,80%;
+	  background-position:center;
+	  
+	  background-color:transparent;
+	  
+	  border:none;
+	  }
+	  
+	  .ViewAnimatedFragment{
+	  position:fixed;
+	  
+	  width:100%;
+	  height:100%;
+	  
+	  z-index:2002;
+	  
+	  left:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  
+	  background-color:#FF3635AA;
+	  
+	  background-image:url("/image/grande_ganho.png");
+	  background-repeat:no-repeat;
+	  background-size:90% 45%;
+	  background-position:center;
+	  
+	  display:none;
+	  }
+	  
+	   .AnimatedFragment{
+	   position:fixed;
+	   
+	   left:0;
+	   top:0;
+	   right:0;
+	   bottom:0;
+	  
+	   width:100%;
+	   height:50%;
+	  
+	   background-image:url("/image/po.png");
+	   background-repeat:no-repeat;
+	   background-position:bottom;
+	  
+	   background-size:40% 50%;
+	   
+	 
+	  }
+	  
+	  .SobrePosicaoAnimada{
+	
+	  }
+	  
+	  .ViewPontos{
+	  position:fixed;
+	  
+	  left:0;
+	  top:51.5%;
+	  right:0;
+	  bottom:0;
+	  
+	  width:100%;
+	  height:20%;
+	  
+	  z-index:2002;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	
+	  }
+	  
+	  #Ponto_1{
+	  width:80px;
+	  height:80px;
+	  background-size:100%,100%;
+	  color:transparent;
+	  display:none;
+	  font-size:50px;
+	  }
+	  #Ponto_2{
+	  color:#E9C55F;
+	  display:none;
+	  font-size:50px;
+	  }
+	  #Ponto_3{
+	  width:80px;
+	  height:80px;
+	  background-size:100%,100%;
+	  color:transparent;
+	  display:none;
+	  }
+	  #Ponto_4{
+	  width:80px;
+	  height:80px;
+	  background-size:100%,100%;
+	  color:transparent;
+	  display:none;
+	  }
+	  #Ponto_5{
+	  width:80px;
+	  height:80px;
+	  background-size:100%,100%;
+	  color:transparent;
+	  display:none;
+	  }
+	  #Ponto_6{
+	  color:#E9C55F;
+	  display:none;
+	  font-size:50px;
+	  }
+	  #Ponto_7{
+	  width:80px;
+	  height:80px;
+	  background-size:100%,100%;
+	  color:transparent;
+	  display:none;
+	  }
+	  #Ponto_8{
+	  width:80px;
+	  height:80px;
+	  background-size:100%,100%;
+	  color:transparent;
+	  }
+	  
+	  .Restart{
+	  position:fixed;
+	  
+	  left:0;
+	  top:70%;
+	  right:0;
+	  bottom:0;
+	  
+	  width:100%;
+	  height:14%;
+	  
+	
+	  background-image:url("/image/restart.png");
+	  background-repeat:no-repeat;
+	  background-size:50%,100%;
+	  background-position:center;
+	  
+	  z-index:2004;
+	  
+	  
+	  border:0;
+	  
+	  }
+	  
+	 
+	  
+	  
+	  
+	 
+	  
+	  
+	  
+	  
+	  
+	  
+	  .ViewErrorDialog{
+	  position:fixed;
+	  
+	  width:100%;
+	  height:100%;
+	  
+	  left:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  
+	
+	  z-index:6000;
+	  
+	  display:none;
+	  
+	  }
+	  
+	  .ErrorDialogAnimatedImage{
+	  width:100%;
+	  height:30%;
+	  
+	  background-image:url("/image/avatar.gif");
+	  background-repeat:no-repeat;
+	  background-size:40%,40%;
+	  background-position:center,bottom;
+	  
+	  background-color:#FF3635AA;
+	  
+	  border:0px;
+	  margin:0px;
+	  
+	  }
+	  
+	  .ErrorDialogMessage{
+	  width:100%;
+	  height:40%;
+	  
+	  background-image:url("/image/saldo_insuficiente.png");
+	  background-repeat:no-repeat;
+	  background-size:100%,100%;
+	  background-position:center;
+	  
+	  background-color:#FF3635AA;
+	  
+	  border:0px;
+	  margin:0px;
+	  
+	  }
+	  
+	  .ErrorDialogButtonRecarregar{
+	  width:100%;
+	  height:30%;
+	  
+	  background-image:url("/image/recarregar.png");
+	  background-repeat:no-repeat;
+	  background-size:50%,50%;
+	  background-position:top;
+  
+	  background-color:#FF3635AA;
+	  
+	  border:0px;
+	  margin:0px;
+	  }
+	  
+	  
+	  
+	  .ViewNotification{
+	  width:100%;
+	  height:20%;
+	  
+	  
+	  
+	  display:flex;
+	  flex-direction:row;
+	  }
+	  
+	  .NotificationBackground{
+	  width:100%;
+	  height:100%;
+	  
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  background-size:100% 110%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  
+	  }
+	  
+	   .NotificationMessage{
+	   position:absolute;
+	   
+	   width:200%;
+	   height:20%;
+	   
+	   left:0;
+	   top:0;
+	   right:0;
+	   bottom:0;
+	   
+	   margin:0;
+	   
+	   display:flex;
+	   flex-direction:row;
+	   justify-content:center;
+	   align-items:center;
+	   
+	  font-size:50px;
+	  
+	  color:gold;
+	  
+	 
+	  }
+	  
+	  .NotificationLeftBackground{
+	  width:10%;
+	  height:100%;
+	  
+	  z-index:1;
+	  
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  background-size:100% 100%;
+	  
+	  border:0;
+	  margin:0;
+	  
+	  transform:translate(-10px,0px);
+	  
+	  }
+				
+	  .NotificationCenterBackground{
+	 
+	  width:80%;
+	  height:100%;
+	  
+	  border:0;
+	  margin:0;
+	  
+	  transform:translate(10px,0px);
+	  
+	  }
+	  
+	  .NotificationRightBackground{
+	  width:10%;
+	  height:100%;
+	  
+	  z-index:1;
+	  
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  background-size:100% 100%;
+	  
+	  border:0;
+	  margin:0;
+	  
+	  transform:translate(10px,0px);
+	  
+	  
+	  }
+	  
+	  .ViewMenu{
+	  width:100%;
+	
+	  height:50%;
+	 
+	  display:flex;
+	  flex-direction:row;
+	  justify-content: right;
+	  align-items: right;
+	  
+	  
+	  }
+	  
+	  .Menu{
+	  width:20%;
+	  height:100%;
+	  
+	  background-repeat:no-repeat;
+	  background-size:70%,70%;
+	  background-position:center;
+	
+	  filter:invert(100%);
+	  
+	
+	  }
+	  
+	  .ViewPanelMenu{
+	  position:absolute;
+	  z-index:100;
+	  width:100%;
+	  height:60%;
+	  left:0;
+	  top:40%;
+	  right:0;
+	  bottom:0;
+	  
+	  background-color:#BE0100;
+	  
+	
+	 
+	  background-image:url("/image/base_bottom.png");
+	  background-size:100% 100%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  
+	  transform:translate(100%,0px);
+	  }
+	  
+	  .ViewPanelMenuIcon{
+	  position:absolute;
+	  width:100%;
+	  height:90%;
+	  left:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  
+	  }
+	  
+	  .ViewPanelMenuTitle{
+	  position:absolute;
+	  width:100%;
+	  height:10%;
+	  left:0;
+	  top:70%;
+	  right:0;
+	  bottom:0;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  
+	  }
+	  
+	  .ViewPanelMenuButtonFunction{
+	  width:20%;
+	  height:32%;
+	  
+	  
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  }
+	  
+	  .PanelMenuButtonFunction{
+	  width:100%;
+	  height:100%;
+	  
+	  background-repeat:no-repeat;
+	  background-size:70%,70%;
+	  background-position:center;
+	  
+	  border-radius:100%;
+	  
+	  box-shadow:4px 4px 10px 1px #fff;
+	  
+	  
+	  
+	  }
+	  
+	  .PanelMenuButtonText{
+	  width:20%;
+	  height:100%;
+	 
+	  font-size:30px;
+	  color:white;
+	  
+	
+	 display:flex;
+	 flex-direction:row;
+	 justify-content:center;
+	 align-items:center;
+	 
+	 margin-top:10px;
+	 margin-bottom:10px;
+	  
+	  }
+	  
+	  .SplashEnter{
+	  position:absolute;
+	  
+	  width:100%;
+	  height:100%;
+	  
+	  left:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  
+	  z-index:4000;
+	  
+	
+	  background-size:100% 100%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  
+	  opacity:0%;
+	  
+	 
+	  }
+	  
+	  .ViewButtonEnter{
+	  position:absolute;
+	  width:100%;
+	  height:100%;
+	  
+	  left:0;
+	 
+	  right:0;
+	  bottom:0;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	
+	  }
+	  
+	  .ButtonEnter{
+	  position:absolute;
+	  width:30%;
+	  height:6%;
+	  top:90%;
+	  
+	
+	
+	  background-color:transparent;
+	  border:0;
+	  background-image:url("/image/iniciar.png");
+	  background-size:100% 100%;
+	  background-repeat:no-repeat;
+	  opacity:0%;
+	  }
+	  
+	  .ViewDivForPc{
+	  position:fixed;
+	  left:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  z-index:2000;
+	  width:100%;
+	  height:100%;
+	  
+	  background-size:cover;
+	  background-repeat:no-repeat;
+	  
+	  display:none;
+	  
+	  margin:0;
+	  
+	  border:0;
+	  }
+	  
+	  .Progress{
+	  position:absolute;
+	  left:0;
+	  top:98%;
+	  right:0;
+	  bottom:0;
+	  width:0px;
+	  height:2%;
+	
+	  border:0;
+	  margin:0;
+	  
+	  background-image:url("/image/progress.png");
+	  }
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  .AbaDeHistorico{
+	
+	 
+	  position:fixed;
+	  z-index:5005;
+	  laft:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  width:100%;
+	  height:100%;
+	  background-color:#212121FF;
+	  visibility:hidden;
+	  }
+	  
+	  .ViewHistoricoTop{
+	
+	
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  width:100%;
+	  height:10%;
+	  
+	  background-color:#212121FF;
+	  
+	  }
+	  
+	  .HistoricoTopAgendaIcon{
+	  width:20%;
+	  height:100%;
+	  background-image:url("/image/agenda.png");
+	  background-size:50% 50%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  border:0;
+	  margin:0;
+	 
+	  filter:invert(100%);
+	  
+	
+	  }
+	  
+	  .ViewHistoricoTopTitleAndSubtitle{
+	  
+	  width:60%;
+	  height:50%;
+	  
+	  
+	  display-flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  margin:0;
+	  
+	
+	  }
+	  
+	  .HistoricoTopTitle{
+	
+	  
+	  width:100%;
+	  height:30%;
+	  
+	  margin:0;
+	  
+	
+	
+	  
+	  
+	  font-size:44px;
+	  color:gold;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  text-align:center;
+	  
+	
+	  }
+	  
+	  .HistoricoTopSubtitle{
+	  width:100%;
+	  height:20%;
+	  
+	  margin:0;
+	  
+	  padding-top:5%;
+	  padding-bottom:5%;
+	  
+	  
+	
+	  
+	  font-size:33px;
+	  color:#FFFFFFFF;
+	  
+	  text-align:center;
+	  }
+	  
+	  
+	  
+	  .HistoricoTopFecharIcon{
+	  width:20%;
+	  height:100%;
+	  background-image:url("/image/fechar.png");
+	  background-size:50% 50%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  border:0;
+	  margin:0;
+	  filter:invert(100%);
+	
+	  }
+	  
+	  .ViewHistoricoTop2{
+	  width:100%;
+	  height:5%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  }
+	  
+	  .ViewHistoricoTop2ListName{
+	  width:33%;
+	  height:100%;
+	  
+	  font-size:33px;
+	  
+	  text-align:center;
+	  
+	  color:#FFFFFFFF;
+	  
+	  
+	  padding-top:5%;
+	  }
+	  
+	  .ViewHistoricoTop2DividerListName{
+	  width:0.2%;
+	  height:100%;
+	  border:0;
+	  margin:0;
+	  
+	  background-color:#FFFFFFFF;
+	  }
+	  
+	  .ViewHistoricoCenter{
+	  width:100%;
+	  height:70%;
+	  background-color:#242424FF;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  
+	  overflow-y:auto;
+	  
+	  }
+	  
+	  .ViewHistoricoBottom{
+	  width:100%;
+	  height:15%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	 
+	  }
+	  
+	  .ViewHistoricoBottomInfo{
+	  width:30%;
+	  height:100%;
+	  
+	
+	  }
+	  
+	   .ViewHistoricoBottomInfoTitle{
+	  width:100%;
+	  height:50%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  color:gold;
+	  
+	  font-size:44px;
+	  
+	  text-align:center;
+	  
+	 
+	  margin:0;
+	  
+	  }
+	  
+	   .ViewHistoricoBottomInfoSubtitle{
+	  width:100%;
+	  height:50%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  color:white;
+	  
+	  font-size:33px;
+	  
+	  text-align:center;
+	  
+	 
+	  margin:0;
+	  
+	  }
+	  
+	  .ViewHistoricoCenterHorario{
+	  width:33%;
+	  height:100%;
+	
+	  }
+	  
+	   .ViewHistoricoCenterAposta{
+	  width:33%;
+	  height:100%;
+	
+	  }
+	  
+	   .ViewHistoricoCenterLucro{
+	  width:33%;
+	  height:100%;
+	  
+	  
+	
+	  }
+	  
+	  .ViewViewHistoricoCenterLucroText{
+	  width:100%;
+	  height:10%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  margin:0;
+	  
+	
+	 
+	  }
+	  
+	  .ViewHistoricoCenterLucroText{
+	  width:100%;
+	  height:10%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  margin:0;
+	  
+	  font-size:15px;
+	  
+	  color:white;
+	  
+	  text-align:center;
+	  
+	
+	  }
+	  
+	  .HistoricoCenterLucroText{
+	  width:100%;
+	  height:10%;
+	  
+	
+	  font-size:15px;
+	  
+	  color:white;
+	  
+	  text-align:center;
+	  
+	
+	  }
+	  
+	  .ViewHistoricoCenterApostaText{
+	   width:100%;
+	  height:10%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  margin:0;
+	  
+	  font-size:15px;
+	  
+	  color:white;
+	  
+	  text-align:center;
+	  
+	
+	 
+	  }
+	  
+	  .ViewHistoricoCenterApostaSeta{
+	  width:100px;
+	  height:100%;
+	  
+	  background-image:url("/image/back2.png");
+	  
+	  background-size:100% 100%;
+	  
+	  background-repeat:no-repeat;
+	  
+	  background-position:center;
+	  
+	  rotate:180deg;
+	  
+	 
+	  }
+	  
+	  .ViewHistoricoCenterHorarioText{
+	  width:100%;
+	  height:10%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  margin:0;
+	  
+	  font-size:15px;
+	  
+	  color:white;
+	  
+	  text-align:center;
+	  
+	
+	  
+	  }
+	  
+	  .ViewHistoricoBottomInfoGanhos{
+	  width:33%;
+	  height:50%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  color:white;
+	  
+	  font-size:33px;
+	  
+	  text-align:center;
+	  
+	  margin:0;
+	  
+	  }
+	  
+	  .ViewHistoricoBottomInfoPerdas{
+	  width:33%;
+	  height:50%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  color:white;
+	  
+	  font-size:33px;
+	  
+	  text-align:center;
+	  
+	  margin:0;
+	  
+	  }
+	  
+	  .NoHistory{
+	  position:absolute;
+	  
+	  left:0;
+	  
+	  top:0;
+	  
+	  right:0;
+	  
+	  bottom:0;
+	  
+	  margin-top:0;
+	  
+	  width:100%;
+	  
+	  height:100%;
+	  
+	  color:white;
+	  
+	  font-size:40px;
+	  
+	  text-align:center;
+	
+	  display-flex;
+	  
+	  flex-direction:row;
+	  
+	  justify-content:center;
+	  
+	  align-items:center;
+	  
+	  padding-top:90%;
+	  
+	  pointer-events: none;
+	  
+	  }
+	  
+	 .AbaDeHistorico_{
+	
+	  position:fixed;
+	  z-index:5005;
+	  laft:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  width:100%;
+	  height:100%;
+	  background-color:#242424FF;
+	  visibility:hidden;
+	  }
+	  
+	 .ViewHistoricoTop_{
+	
+	
+	  display:flex;
+	  flex-direction:row;
+	
+	  width:100%;
+	  height:10%;
+	  
+	  background-color:#212121FF;
+	  
+	  }
+	  
+	 .HistoricoTopBackIcon_{
+	  width:20%;
+	  height:100%;
+	  background-image:url("/image/back2.png");
+	  background-size:50% 40%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  border:0;
+	  margin:0;
+	 
+	 
+	  }
+	  
+	 .ViewHistoricoTopTitleAndSubtitle_{
+	  
+	  width:60%;
+	  height:100%;
+	  
+	  
+	  display-flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  text-align:center;
+	  
+	
+	  margin:0;
+	  }
+	  
+	 .HistoricoTopTitle_{
+	  width:100%;
+	  height:30%;
+	  
+	  margin:0;
+	  
+	  padding-top:5%;
+	  padding-bottom:5%;
+	  
+	
+	  
+	  
+	  font-size:44px;
+	  color:gold;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  text-align:center;
+	  
+	
+	  }
+	  
+	 .HistoricoTopSubtitle_{
+	  width:100%;
+	  height:30%;
+	  
+	  margin:0;
+	  
+	 
+	  
+	
+	  
+	  font-size:33px;
+	  color:#FFFFFFFF;
+	  
+	  text-align:center;
+	  
+	
+	  }
+	  
+	  .HistoricoTopSpaceIcon_{
+	  width:20%;
+	  height:100%;
+	  background-image:url("/image/transparent.png");
+	  background-size:50% 40%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  border:0;
+	  margin:0;
+	 
+	 
+	  }
+	  
+	 .ViewHistoricoTop2_{
+	  width:100%;
+	  height:5%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  }
+	  
+	   .ViewHistoricoTop_ListName_{
+	  width:30%;
+	  height:100%;
+	  
+	  font-size:44px;
+	  
+	  text-align:center;
+	  
+	  color:gold;
+	  
+	  
+	  padding-top:5%;
+	  }
+	  
+	  .ViewHistoricoTop_DividerListName_{
+	  width:0.2%;
+	  height:100%;
+	  border:0;
+	  margin:0;
+	  
+	  background-color:transparent;
+	  }
+	  
+	 .ViewHistoricoCenter_{
+	  width:100%;
+	  height:10%;
+	 
+	  display:flex;
+	  flex-direction:row;
+	  
+	  overflow-y:auto;
+	  
+	  }
+	  
+	  
+	 .ViewHistoricoCenterAposta_{
+	  width:33%;
+	  height:100%;
+	
+	  }
+	  
+	 .ViewHistoricoCenterLucro_{
+	  width:33%;
+	  height:100%;
+	
+	  }
+	  
+	 .ViewHistoricoCenterSaldo_{
+	  width:33%;
+	  height:100%;
+	
+	  }
+	  
+	 .ViewHistoricoCenterApostaText_{
+	  width:100%;
+	  height:10%;
+	  
+	  margin:0;
+	  
+	  font-size:44px;
+	  
+	  color:white;
+	  
+	  text-align:center;
+	  
+	  padding-top:20%;
+	  
+	  }
+	  
+	 .ViewHistoricoCenterLucroText_{
+	  width:100%;
+	  height:10%;
+	  
+	  margin:0;
+	  
+	  font-size:44px;
+	  
+	  color:white;
+	  
+	  text-align:center;
+	  
+	  padding-top:20%;
+	  
+	  }
+	  
+	 .ViewHistoricoCenterSaldoText_{
+	  width:100%;
+	  height:10%;
+	  
+	  margin:0;
+	  
+	  font-size:44px;
+	  
+	  color:white;
+	  
+	  text-align:center;
+	  
+	  padding-top:20%;
+	  
+	  }
+	  
+	 .ViewSlotsDoGanho{
+	  width:100%;
+	  height:80%;
+	  
+	  display-flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	
+	  }
+	  
+	 .SlotsDoGanho{
+	  width:98%;
+	  height:40%;
+	  
+	  display-flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  margin-left:1%;
+	  margin-top:20%;
+	  }
+	  
+	  .AbaDePagamentos{
+	  position:fixed;
+	  z-index:5005;
+	  laft:0;
+	  top:0;
+	  right:0;
+	  bottom:0;
+	  width:100%;
+	  height:100%;
+	  background-color:#242424FF;
+	  visibility:hidden;
+	  }
+	  
+	  .AbaDePagamentosActionBar{
+	  width:100%;
+	  height:10%;
+	  background-color:#212121FF;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  }
+	  
+	   .AbaDePagamentosActionBarTitle{
+	   margin-top:0;
+	   width:60%;
+	   height:100%;
+	   color:gold;
+	   font-size:44px;
+	   text-align:center;
+	   
+	   display:flex;
+	   flex-direction:row;
+	   justify-content:center;
+	   align-items:center;
+	   
+	 
+	  }
+	  
+	 .PagamentosTopFecharIcon{
+	  width:20%;
+	  height:100%;
+	  background-image:url("/image/fechar.png");
+	  background-size:50% 50%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  border:0;
+	  margin:0;
+	 filter:invert(100%);
+	  }
+	  
+	  
+	  .AbaDePagamentosCenter{
+	  width:100%;
+	  height:90%;
+	  
+	  overflow-y:auto;
+	  overflow-x:none;
+	  
+	 
+	  }
+	  
+	  ::-webkit-scrollbar{
+	  width:0px;
+	  background:transparent;
+	  }
+
+	  ::-webkit-scrollbar-thumb{
+	  width:0px;
+	  background-color:transparent;
+	  }
+	  
+	  .AbaDePagamentosCenterTitle{
+	  margin-top:0;
+	  
+	  width:100%;
+	  height:10%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	   color:lightgray;
+	   
+	   font-size:33px;
+	   
+	   text-align:center;
+	   
+	  }
+	  
+	  .AbaDePagamentosCenterSlotsPreview{
+	  width:80%;
+	  height:40%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  margin-left:10%;
+	  
+	 
+	  background-image:url("/image/valores.png");
+	  background-size:100% 100%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  
+	  }
+	  
+	    .AbaDePagamentosCenterSlotsPreview2{
+	  width:80%;
+	  height:40%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	  margin-left:10%;
+	  
+	  
+	  background-image:url("/image/templo_wow.png");
+	  background-size:100% 100%;
+	  background-repeat:no-repeat;
+	  background-position:center;
+	  
+	  }
+	  
+	  .AbaDePagamentosCenterSlotsOnePreview{
+	  
+	  width:33%;
+	  height:100%;
+	  
+	
+	  }
+	  
+	  .AbaDePagamentosCenterSlotsTwoPreview{
+	  
+	  width:33%;
+	  height:100%;
+	  
+	
+	  }
+	  
+	  .AbaDePagamentosCenterSlotsTreePreview{
+	  
+	  width:33%;
+	  height:100%;
+	  
+	
+	  }
+	  
+	  .AbaDePagamentosCenterSlotPreview{
+	  width:100%;
+	  height:30%;
+	  }
+	  
+	  .AbaDePagamentosCenterExplication{
+	  width:90%;
+	
+	  margin-left:5%;
+	  margin-top:5%;
+	  margin-right:5%;
+	  margin-bottom:5%;
+	  
+	  
+	  font-size:28.7px;
+	  
+	  color:lightgray;
+	  
+	  }
+	  
+	  .AbaDePagamentosCenterDivisor{
+	  width:100%;
+	  height:0.1px;
+	  
+	  margin:0;
+	  
+	  background-color:gray;
+	  }
+	  
+	  .AbaDePagamentosCenterSlotsPremiumPreview{
+	 
+	  width:100%;
+	  height:10%;
+	  
+	  display:flex;
+	  flex-direction:row;
+	  justify-content:center;
+	  align-items:center;
+	  
+	
+	  background-image:url("/image/Quadrados.png");
+	  background-size:80% 100%;
+	  background-position:center;
+	  background-repeat:no-repeat;
+	  }
+	  
+	  video{background:white;}
+
+@font-face {
+font-family:Cyberpunk;
+src:url('/font/Cyberpunk.ttf');
+font-family:PoppinsRegular;
+src:url('/font/Poppins-Regular.ttf');
+}
+
+h1{
+font-family:PoppinsRegular;
+}
+
+.ProgressText{
+position:absolute;
+width:100%;
+height:10%;
+font-size:22px;
+color:blue;
+text-align:center;
+visibility:hidden;
+}
+
+.AbaDeHistoricoCarregamento_{
+position:fixed;
+z-index:9000;
+left:0;
+top:0;
+right:0;
+bottom:0;
+width:100%;
+height:100%;
+
+background-color:#212121FF;
+
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+}
+
+.AbaDeHistoricoCarregamentoHourGlass{
+width:50%;
+height:25%;
+}
+
+.Gold{
+position:fixed;
+z-index:1000;
+left:75%;
+top:0px;
+right:0px;
+bottom:0px;
+width:20%;
+height:10%;
+
+border:0;
+margin:0;
+
+background-size:100% 100%;
+background-repeat:no-repeat;
+background-position:center;
+}
+	  
