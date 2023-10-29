@@ -26,14 +26,3 @@ ResourcesLoaded = 45;
 };
 
 }
-
-/*
-var promise = new Promise((resolve, reject)=>{
-	
-if(ResourceCount==45){
-    resolve("resolved");
-  }else{
-    //reject("rejected");
-  }
-
-});*/
