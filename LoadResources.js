@@ -16,7 +16,7 @@ ImagePreview.src = ImageName;
 
 ImagePreview.onload = function(){
 
-ObjectName.style.backgroundImage = "url("+ImageName+")";
+ObjectName.style.backgroundImage = "url(/"+ImageName+")";
 
 if(ResourceCount!=ArrayListImageName.length-1){
 LoadResources(ImagePreview, ArrayListImageName, ArrayListObjectName);
