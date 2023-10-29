@@ -4,7 +4,7 @@ var ResourcesLoaded = 0;
 
 function LoadResources(ImagePreview, ArrayListImageName, ArrayListObjectName){
 
-       alert("@@");
+       
        
 ResourceCount=ResourceCount+1;
 
@@ -23,6 +23,7 @@ LoadResources(ImagePreview, ArrayListImageName, ArrayListObjectName);
 ResourcesLoaded = ResourcesLoaded+1;
 }else{
 ResourcesLoaded = 45;
+       alert("@@");
 }
 
 };
