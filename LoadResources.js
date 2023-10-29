@@ -4,6 +4,8 @@ var ResourcesLoaded = 0;
 
 function LoadResources(ImagePreview, ArrayListImageName, ArrayListObjectName){
 
+       alert("@");
+       
 ResourceCount=ResourceCount+1;
 
 var ImageName = ArrayListImageName[ResourceCount];
