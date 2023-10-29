@@ -4,7 +4,7 @@ var ResourcesLoaded = 0;
 
 function LoadResources(ImagePreview, ArrayListImageName, ArrayListObjectName){
 
-       alert("@");
+       alert("@@");
        
 ResourceCount=ResourceCount+1;
 
