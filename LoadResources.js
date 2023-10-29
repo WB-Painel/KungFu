@@ -6,7 +6,7 @@ function LoadResources(ImagePreview, ArrayListImageName, ArrayListObjectName){
 
        setTimeout(function(){
               
-       alert(ResourceCount)
+       
        
 ResourceCount=ResourceCount+1;
 
