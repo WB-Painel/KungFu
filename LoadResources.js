@@ -25,11 +25,11 @@ LoadResources(ImagePreview, ArrayListImageName, ArrayListObjectName);
 ResourcesLoaded = ResourcesLoaded+1;
 }else{
 ResourcesLoaded = 45;
-       alert("@@");
+       
 }
 
 };
 
-       },500);
+       },0);
 
 }
