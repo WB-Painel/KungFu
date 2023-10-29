@@ -12,6 +12,7 @@
 	  background-position:center;
 	  background-size:100% 100%;
 	  z-index:5000;
+		  opacity:50%;
 	  }
 	  
 	  .Fundo{
@@ -872,8 +873,8 @@
 	
 	  border:0;
 	  margin:0;
-	  
-	  background-image:url("/image/progress.png");
+	  background-color:red;
+	  background-image:url("image/progress.png");
 	  }
 	  
 	  
