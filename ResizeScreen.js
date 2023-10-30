@@ -344,7 +344,7 @@ function ResizeScreen(){
 	
 	if(LISTA_1.children.length>0){
 	
-	for(var i = 0; i < LISTA_1.children.length; i++){
+	for(let i = 0; i < LISTA_1.children.length; i++){
 	
 	let SLOT = LISTA_1.children[i];
 	
@@ -363,7 +363,7 @@ function ResizeScreen(){
 	
 	if(LISTA_2.children.length>0){
 	
-	for(var i = 0; i < LISTA_2.children.length; i++){
+	for(let i = 0; i < LISTA_2.children.length; i++){
 	
 	let SLOT = LISTA_2.children[i];
 	
@@ -382,7 +382,7 @@ function ResizeScreen(){
 	
 	if(LISTA_3.children.length>0){
 	
-	for(var i = 0; i < LISTA_3.children.length; i++){
+	for(let i = 0; i < LISTA_3.children.length; i++){
 	
 	let SLOT = LISTA_3.children[i];
 	
