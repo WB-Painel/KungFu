@@ -80,7 +80,7 @@ function ResizeScreen(){
 	
 	CreateSlots();
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	SlotsDaPreviewCriado=true;
 	}
 	
@@ -119,11 +119,11 @@ function ResizeScreen(){
 	
 	let ScreenHeight = window.screen.height;
 	
-	let ScreenWidth = document.getElementsByTagName("Body")[0].clientWidth; //window.screen.width;
+	let ScreenWidth = document.getElementsByTagName("Body")[0].clientWidth;
 	
-	let ScreenHeight_2 = document.getElementsByTagName("Body")[0].clientHeight; //window.screen.width;
+	let ScreenHeight_2 = document.getElementsByTagName("Body")[0].clientHeight;
 	
-	let ScreenWidth_2 = document.getElementsByTagName("Body")[0].clientHeight; //window.screen.width;
+	let ScreenWidth_2 = document.getElementsByTagName("Body")[0].clientHeight;
 	
 	
 	let Telhado = document.getElementsByClassName("Telhado_1")[0];
@@ -145,22 +145,22 @@ function ResizeScreen(){
 	LISTA_1.style.width = LISTA_1.clientWidth/2+"px";
 	
 	
-	let LIST_SPACE = document.getElementsByClassName("LIST_SPACE")[0];
-	LIST_SPACE.style.width = LIST_SPACE.clientWidth/2+"px";
+	let LIST_SPACE1 = document.getElementsByClassName("LIST_SPACE")[0];
+	LIST_SPACE1.style.width = LIST_SPACE1.clientWidth/2+"px";
 	
 	
-	let LISTA_1 = document.getElementsByClassName("LISTA_2")[0];
-	LISTA_1.style.height=ScreenHeight_2/2+"px";
-	LISTA_1.style.width = LISTA_1.clientWidth/2+"px";
+	let LISTA_2 = document.getElementsByClassName("LISTA_2")[0];
+	LISTA_2.style.height=ScreenHeight_2/2+"px";
+	LISTA_2.style.width = LISTA_1.clientWidth/2+"px";
 	
 	
-	let LIST_SPACE = document.getElementsByClassName("LIST_SPACE")[1];
-	LIST_SPACE.style.width = LIST_SPACE.clientWidth/2+"px";
+	let LIST_SPACE2 = document.getElementsByClassName("LIST_SPACE")[1];
+	LIST_SPACE2.style.width = LIST_SPACE1.clientWidth/2+"px";
 	
 	
-	let LISTA_1 = document.getElementsByClassName("LISTA_3")[0];
-	LISTA_1.style.height=ScreenHeight_2/2+"px";
-	LISTA_1.style.width = LISTA_1.clientWidth/2+"px";
+	let LISTA_3 = document.getElementsByClassName("LISTA_3")[0];
+	LISTA_3.style.height=ScreenHeight_2/2+"px";
+	LISTA_3.style.width = LISTA_1.clientWidth/2+"px";
 	
 	
 	
@@ -203,55 +203,55 @@ function ResizeScreen(){
 	ViewInformation.style.height=DesignBottom.clientHeight/4+"px";
 	
 	
-	let CardInfo = document.getElementsByClassName("CardInfo")[0];
-	CardInfo.style.width=ViewInformation.clientWidth/4+"px";
-	CardInfo.style.height=ViewInformation.clientHeight/2+"px";
+	let CardInfo1 = document.getElementsByClassName("CardInfo")[0];
+	CardInfo1.style.width=ViewInformation.clientWidth/4+"px";
+	CardInfo1.style.height=ViewInformation.clientHeight/2+"px";
 	
 	
-	let CardInfo = document.getElementsByClassName("CardInfo")[1];
-	CardInfo.style.width=ViewInformation.clientWidth/4+"px";
-	CardInfo.style.height=ViewInformation.clientHeight/2+"px";
+	let CardInfo2 = document.getElementsByClassName("CardInfo")[1];
+	CardInfo2.style.width=ViewInformation.clientWidth/4+"px";
+	CardInfo2.style.height=ViewInformation.clientHeight/2+"px";
 	
 	
-	let CardInfo = document.getElementsByClassName("CardInfo")[2];
-	CardInfo.style.width=ViewInformation.clientWidth/4+"px";
-	CardInfo.style.height=ViewInformation.clientHeight/2+"px";
+	let CardInfo3 = document.getElementsByClassName("CardInfo")[2];
+	CardInfo3.style.width=ViewInformation.clientWidth/4+"px";
+	CardInfo3.style.height=ViewInformation.clientHeight/2+"px";
 	
 	
-	let CardInfoIcon = document.getElementsByClassName("CardInfoIcon")[0];
-	CardInfoIcon.style.width = CardInfo.clientWidth/10+"px";
-	CardInfoIcon.style.height = CardInfo.clientHeight/2+"px";
-	CardInfoIcon.style.backgroundSize = CardInfo.clientWidth/10+"px";
+	let CardInfoIcon1 = document.getElementsByClassName("CardInfoIcon")[0];
+	CardInfoIcon1.style.width = CardInfo1.clientWidth/10+"px";
+	CardInfoIcon1.style.height = CardInfo1.clientHeight/2+"px";
+	CardInfoIcon1.style.backgroundSize = CardInfo1.clientWidth/10+"px";
 	
 	
-	let CardInfoIcon = document.getElementsByClassName("CardInfoIcon")[1];
-	CardInfoIcon.style.width = CardInfo.clientWidth/10+"px";
-	CardInfoIcon.style.height = CardInfo.clientHeight/2+"px";
-	CardInfoIcon.style.backgroundSize = CardInfo.clientWidth/10+"px";
+	let CardInfoIcon2 = document.getElementsByClassName("CardInfoIcon")[1];
+	CardInfoIcon2.style.width = CardInfo2.clientWidth/10+"px";
+	CardInfoIcon2.style.height = CardInfo2.clientHeight/2+"px";
+	CardInfoIcon2.style.backgroundSize = CardInfo2.clientWidth/10+"px";
 	
 	
-	let CardInfoIcon = document.getElementsByClassName("CardInfoIcon")[2];
-	CardInfoIcon.style.width = CardInfo.clientWidth/10+"px";
-	CardInfoIcon.style.height = CardInfo.clientHeight/2+"px";
-	CardInfoIcon.style.backgroundSize = CardInfo.clientWidth/10+"px";
+	let CardInfoIcon3 = document.getElementsByClassName("CardInfoIcon")[2];
+	CardInfoIcon3.style.width = CardInfo3.clientWidth/10+"px";
+	CardInfoIcon3.style.height = CardInfo3.clientHeight/2+"px";
+	CardInfoIcon3.style.backgroundSize = CardInfo3.clientWidth/10+"px";
 	
 	
-	let CardInfoValor = document.getElementsByClassName("CardInfoValor")[0];
-	CardInfoValor.style.width = CardInfo.clientWidth/1+"px";
-	CardInfoValor.style.height = CardInfo.clientHeight/1+"px";
-	CardInfoValor.style.fontSize = CardInfo.clientHeight/2+"px";
+	let CardInfoValor1 = document.getElementsByClassName("CardInfoValor")[0];
+	CardInfoValor1.style.width = CardInfo1.clientWidth/1+"px";
+	CardInfoValor1.style.height = CardInfo1.clientHeight/1+"px";
+	CardInfoValor1.style.fontSize = CardInfo1.clientHeight/2+"px";
 	
 	
-	let CardInfoValor = document.getElementsByClassName("CardInfoValor")[1];
-	CardInfoValor.style.width = CardInfo.clientWidth/1+"px";
-	CardInfoValor.style.height = CardInfo.clientHeight/1+"px";
-	CardInfoValor.style.fontSize = CardInfo.clientHeight/2+"px";
+	let CardInfoValor2 = document.getElementsByClassName("CardInfoValor")[1];
+	CardInfoValor2.style.width = CardInfo2.clientWidth/1+"px";
+	CardInfoValor2.style.height = CardInfo2.clientHeight/1+"px";
+	CardInfoValor2.style.fontSize = CardInfo2.clientHeight/2+"px";
 	
 	
-	let CardInfoValor = document.getElementsByClassName("CardInfoValor")[2];
-	CardInfoValor.style.width = CardInfo.clientWidth/1+"px";
-	CardInfoValor.style.height = CardInfo.clientHeight/1+"px";
-	CardInfoValor.style.fontSize = CardInfo.clientHeight/2+"px";
+	let CardInfoValor3 = document.getElementsByClassName("CardInfoValor")[2];
+	CardInfoValor3.style.width = CardInfo3.clientWidth/1+"px";
+	CardInfoValor3.style.height = CardInfo3.clientHeight/1+"px";
+	CardInfoValor3.style.fontSize = CardInfo3.clientHeight/2+"px";
 	
 	
 	let ViewViewButtonFunction = document.getElementsByClassName("ViewViewButtonFunction")[0];
@@ -264,16 +264,16 @@ function ResizeScreen(){
 	ViewButtonFunction.style.height = DesignBottom.clientHeight/4+"px";
 	
 	
-	let ButtonFunction = document.getElementsByClassName("ButtonFunction")[0];
-	ButtonFunction.style.width = ViewButtonFunction.clientWidth/5+"px";
-	ButtonFunction.style.height = ViewButtonFunction.clientHeight/1+"px";
-	ButtonFunction.style.backgroundSize = ViewButtonFunction.clientHeight/1+"px";
+	let ButtonFunction1 = document.getElementsByClassName("ButtonFunction")[0];
+	ButtonFunction1.style.width = ViewButtonFunction.clientWidth/5+"px";
+	ButtonFunction1.style.height = ViewButtonFunction.clientHeight/1+"px";
+	ButtonFunction1.style.backgroundSize = ViewButtonFunction.clientHeight/1+"px";
 	
 	
-	let ButtonFunction = document.getElementsByClassName("ButtonFunction")[1];
-	ButtonFunction.style.width = ViewButtonFunction.clientWidth/5+"px";
-	ButtonFunction.style.height = ViewButtonFunction.clientHeight/1+"px";
-	ButtonFunction.style.backgroundSize = ViewButtonFunction.clientHeight/1+"px";
+	let ButtonFunction2 = document.getElementsByClassName("ButtonFunction")[1];
+	ButtonFunction2.style.width = ViewButtonFunction.clientWidth/5+"px";
+	ButtonFunction2.style.height = ViewButtonFunction.clientHeight/1+"px";
+	ButtonFunction2.style.backgroundSize = ViewButtonFunction.clientHeight/1+"px";
 	
 	
 	let Play = document.getElementsByClassName("PLAY")[0];
@@ -282,20 +282,20 @@ function ResizeScreen(){
 	Play.style.backgroundSize = ViewButtonFunction.clientHeight/1+ViewButtonFunction.clientHeight/5+"px";
 	
 	
-	let ButtonFunction = document.getElementsByClassName("ButtonFunction")[2];
-	ButtonFunction.style.width = ViewButtonFunction.clientWidth/5+"px";
-	ButtonFunction.style.height = ViewButtonFunction.clientHeight/1+"px";
-	ButtonFunction.style.backgroundSize = ViewButtonFunction.clientHeight/1+"px";
+	let ButtonFunction3 = document.getElementsByClassName("ButtonFunction")[2];
+	ButtonFunction3.style.width = ViewButtonFunction.clientWidth/5+"px";
+	ButtonFunction3.style.height = ViewButtonFunction.clientHeight/1+"px";
+	ButtonFunction3.style.backgroundSize = ViewButtonFunction.clientHeight/1+"px";
 	
 	
-	let ButtonFunction = document.getElementsByClassName("ButtonFunction")[3];
-	ButtonFunction.style.width = ViewButtonFunction.clientWidth/5+"px";
-	ButtonFunction.style.height = ViewButtonFunction.clientHeight/1+"px";
-	ButtonFunction.style.backgroundSize = ViewButtonFunction.clientHeight/1+"px";
+	let ButtonFunction4 = document.getElementsByClassName("ButtonFunction")[3];
+	ButtonFunction4.style.width = ViewButtonFunction.clientWidth/5+"px";
+	ButtonFunction4.style.height = ViewButtonFunction.clientHeight/1+"px";
+	ButtonFunction4.style.backgroundSize = ViewButtonFunction.clientHeight/1+"px";
 	
 	
 	let ViewMenu = document.getElementsByClassName("ViewMenu")[0];
-	ViewMenu.style.height = DesignBottom.clientHeight/4+"px"; //ViewInformation.clientHeight-ViewInformation.clientHeight/8+"px"; //ViewMenu.clientHeight/2+"px";
+	ViewMenu.style.height = DesignBottom.clientHeight/4+"px";
 	
 	
 	let Menu = document.getElementsByClassName("Menu")[0];
