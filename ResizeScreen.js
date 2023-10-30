@@ -62,17 +62,17 @@ function ResizeScreen(){
 	PanelMenuButtonFunction5.style.width = ViewPanelMenuButtonFunction1.clientWidth/2+"px";
 	
 	let AbaDePagamentos = document.getElementsByClassName("AbaDePagamentos")[0];
-	if(Opned3==false){
+	if(!Opned3){
 	AbaDePagamentos.style.transform = "translate("+AbaDePagamentos.clientWidth+"px"+","+"0"+"px)";
 	}
 	
 	let ViewAbaDeHistorico_ = document.getElementsByClassName("AbaDeHistorico_")[0];
-	if(Opned2==false){
+	if(!Opned2){
 	ViewAbaDeHistorico_.style.transform = "translate("+ViewAbaDeHistorico_.clientWidth+"px"+","+"0"+"px)";
 	}
 	
 	let ViewAbaDeHistorico = document.getElementsByClassName("AbaDeHistorico")[0];
-	if(Opned==false){
+	if(!Opned){
 	ViewAbaDeHistorico.style.transform = "translate("+ViewAbaDeHistorico.clientWidth+"px"+","+"0"+"px)";
 	}
 	
