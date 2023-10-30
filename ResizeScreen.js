@@ -16,50 +16,50 @@ function ResizeScreen(){
 	
 	
 	
-	let ViewPanelMenuButtonFunction = document.getElementsByClassName("ViewPanelMenuButtonFunction")[0];
-	ViewPanelMenuButtonFunction.style.width = ScreenWidth/5;
+	let ViewPanelMenuButtonFunction1 = document.getElementsByClassName("ViewPanelMenuButtonFunction")[0];
+	ViewPanelMenuButtonFunction1.style.width = ScreenWidth/5;
 	
 	
 	
-	let ViewPanelMenuButtonFunction = document.getElementsByClassName("ViewPanelMenuButtonFunction")[1];
-	ViewPanelMenuButtonFunction.style.width = ScreenWidth/5;
+	let ViewPanelMenuButtonFunction2 = document.getElementsByClassName("ViewPanelMenuButtonFunction")[1];
+	ViewPanelMenuButtonFunction2.style.width = ScreenWidth/5;
 	
 	
 	
-	let ViewPanelMenuButtonFunction = document.getElementsByClassName("ViewPanelMenuButtonFunction")[2];
-	ViewPanelMenuButtonFunction.style.width = ScreenWidth/5;
+	let ViewPanelMenuButtonFunction3 = document.getElementsByClassName("ViewPanelMenuButtonFunction")[2];
+	ViewPanelMenuButtonFunction3.style.width = ScreenWidth/5;
 	
 	
 	
-	let ViewPanelMenuButtonFunction = document.getElementsByClassName("ViewPanelMenuButtonFunction")[3];
-	ViewPanelMenuButtonFunction.style.width = ScreenWidth/5;
+	let ViewPanelMenuButtonFunction4 = document.getElementsByClassName("ViewPanelMenuButtonFunction")[3];
+	ViewPanelMenuButtonFunction4.style.width = ScreenWidth/5;
 	
 	
 	
-	let ViewPanelMenuButtonFunction = document.getElementsByClassName("ViewPanelMenuButtonFunction")[4];
-	ViewPanelMenuButtonFunction.style.width = ScreenWidth/5;
+	let ViewPanelMenuButtonFunction5 = document.getElementsByClassName("ViewPanelMenuButtonFunction")[4];
+	ViewPanelMenuButtonFunction5.style.width = ScreenWidth/5;
 	
 	
 	
 	
-	let PanelMenuButtonFunction = document.getElementsByClassName("PanelMenuButtonFunction")[0];
-	PanelMenuButtonFunction.style.width = ViewPanelMenuButtonFunction.clientWidth/2+"px";
+	let PanelMenuButtonFunction1 = document.getElementsByClassName("PanelMenuButtonFunction")[0];
+	PanelMenuButtonFunction1.style.width = ViewPanelMenuButtonFunction1.clientWidth/2+"px";
 	
 	
-	let PanelMenuButtonFunction = document.getElementsByClassName("PanelMenuButtonFunction")[1];
-	PanelMenuButtonFunction.style.width = ViewPanelMenuButtonFunction.clientWidth/2+"px";
+	let PanelMenuButtonFunction2 = document.getElementsByClassName("PanelMenuButtonFunction")[1];
+	PanelMenuButtonFunction2.style.width = ViewPanelMenuButtonFunction1.clientWidth/2+"px";
 	
 	
-	let PanelMenuButtonFunction = document.getElementsByClassName("PanelMenuButtonFunction")[2];
-	PanelMenuButtonFunction.style.width = ViewPanelMenuButtonFunction.clientWidth/2+"px";
+	let PanelMenuButtonFunction3 = document.getElementsByClassName("PanelMenuButtonFunction")[2];
+	PanelMenuButtonFunction3.style.width = ViewPanelMenuButtonFunction1.clientWidth/2+"px";
 	
 	
-	let PanelMenuButtonFunction = document.getElementsByClassName("PanelMenuButtonFunction")[3];
-	PanelMenuButtonFunction.style.width = ViewPanelMenuButtonFunction.clientWidth/2+"px";
+	let PanelMenuButtonFunction4 = document.getElementsByClassName("PanelMenuButtonFunction")[3];
+	PanelMenuButtonFunction4.style.width = ViewPanelMenuButtonFunction1.clientWidth/2+"px";
 	
 	
-	let PanelMenuButtonFunction = document.getElementsByClassName("PanelMenuButtonFunction")[4];
-	PanelMenuButtonFunction.style.width = ViewPanelMenuButtonFunction.clientWidth/2+"px";
+	let PanelMenuButtonFunction5 = document.getElementsByClassName("PanelMenuButtonFunction")[4];
+	PanelMenuButtonFunction5.style.width = ViewPanelMenuButtonFunction1.clientWidth/2+"px";
 	
 	let AbaDePagamentos = document.getElementsByClassName("AbaDePagamentos")[0];
 	if(Opned3==false){
