@@ -344,8 +344,11 @@ function ResizeScreen(){
 	
 	if(LISTA_1.children.length>0){
 	
-	for(let i = 0; i < LISTA_1.children.length; i++){
-	
+	//for(let i = 0; i < LISTA_1.children.length; i++){
+	let i = 0;
+	let b = LISTA_1.children.length;
+	while(i<b){
+		
 	let SLOT = LISTA_1.children[i];
 	
 	SLOT.style.height = VIEW_LISTAS.clientHeight/3+"px";
@@ -355,7 +358,9 @@ function ResizeScreen(){
 	
 	SLOT.innerHTML = SLOT.innerHTML.replace(SLOT.innerHTML.substring(v1,v2),"background-size:"+VIEW_LISTAS.clientHeight/3+"px"+" "+VIEW_LISTAS.clientHeight/3+"px"+";"+" ");
 
+	i++;
 	}
+	//}
 	
 	}
 	
