@@ -6,7 +6,7 @@ function ResizeScreen(){
 	
 	let ScreenWidth = window.screen.width;
 	
-	let ViewMenu = document.getElementsByClassName("ViewMenu")[0];
+	//let ViewMenu = document.getElementsByClassName("ViewMenu")[0];
 	
 	let Menu = document.getElementsByClassName("Menu")[0];
 	Menu.style.height = Menu.clientHeight/2+Menu.clientHeight/3+"px";
