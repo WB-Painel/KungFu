@@ -1,6 +1,6 @@
-var ResourceCount = -1;
+let ResourceCount = -1;
        
-var ResourcesLoaded = 0;
+let ResourcesLoaded = 0;
 
 function LoadResources(ImagePreview, ArrayListImageName, ArrayListObjectName){
 
@@ -10,9 +10,9 @@ function LoadResources(ImagePreview, ArrayListImageName, ArrayListObjectName){
        
 ResourceCount=ResourceCount+1;
 
-var ImageName = ArrayListImageName[ResourceCount];
+let ImageName = ArrayListImageName[ResourceCount];
 
-var ObjectName = ArrayListObjectName[ResourceCount];
+let ObjectName = ArrayListObjectName[ResourceCount];
 
 ImagePreview.src = ImageName;
 
