@@ -304,34 +304,34 @@ function ResizeScreen(){
 	Menu.style.backgroundSize = ButtonFunction.clientWidth/4+"px";
 	
 	
-	let VIEW_LISTAS = document.getElementsByClassName("VIEW_LISTAS")[0];
+	//let VIEW_LISTAS = document.getElementsByClassName("VIEW_LISTAS")[0];
 	
-	let DESIGN_CENTER = document.getElementsByClassName("DesignCenter")[0];
+	//let DESIGN_CENTER = document.getElementsByClassName("DesignCenter")[0];
 	
 	let WIDTH = document.getElementsByClassName("VIEW_LISTAS")[0].clientWidth;
 	
 	
-	let LISTA_1 = document.getElementsByClassName("LISTA_1")[0];
+	//let LISTA_1 = document.getElementsByClassName("LISTA_1")[0];
 	LISTA_1.style.left = 0+"px";
 	LISTA_1.style.width = WIDTH/5+WIDTH/40+"px";
 	
 	
-	let LISTA_2 = document.getElementsByClassName("LISTA_2")[0];
+	//let LISTA_2 = document.getElementsByClassName("LISTA_2")[0];
 	LISTA_2.style.left = 0+"px";
 	LISTA_2.style.width = WIDTH/5+WIDTH/40+"px";
 	
 	
-	let LISTA_3 = document.getElementsByClassName("LISTA_3")[0];
+	//let LISTA_3 = document.getElementsByClassName("LISTA_3")[0];
 	LISTA_3.style.left = 0+"px";
 	LISTA_3.style.width = WIDTH/5+WIDTH/40+"px";
 	
 	
-	let LIST_SPACE = document.getElementsByClassName("LIST_SPACE")[0];
-	LIST_SPACE.style.width=WIDTH/12+"px";
+	//let LIST_SPACE = document.getElementsByClassName("LIST_SPACE")[0];
+	LIST_SPACE1.style.width=WIDTH/12+"px";
 	
 	
-	let LIST_SPACE = document.getElementsByClassName("LIST_SPACE")[1];
-	LIST_SPACE.style.width=WIDTH/12+"px";
+	//let LIST_SPACE = document.getElementsByClassName("LIST_SPACE")[1];
+	LIST_SPACE2.style.width=WIDTH/12+"px";
 	
 	
 	let VIEW_LISTAS_POSITION = 1*VIEW_LISTAS.clientHeight+/*-VIEW_LISTAS.clientHeight/7+*/"px";
@@ -410,18 +410,18 @@ function ResizeScreen(){
 	let VIEW_DIV_FOR_PC_WIDTH_INCREMENT_IN_INVALID_SPACE = VIEW_DIV_FOR_PC_WIDTH/40;
 	
 	
-	let ViewDivForPc = document.getElementsByClassName("ViewDivForPc")[0];
-	ViewDivForPc.style.display="block";
-	ViewDivForPc.style.width = VIEW_DIV_FOR_PC_WIDTH+VIEW_DIV_FOR_PC_WIDTH_INCREMENT+"px";
-	ViewDivForPc.style.backgroundImage = "url(image/right_bg.png)";
-	ViewDivForPc.style.marginLeft = 0+"px";
+	let ViewDivForPc1 = document.getElementsByClassName("ViewDivForPc")[0];
+	ViewDivForPc1.style.display="block";
+	ViewDivForPc1.style.width = VIEW_DIV_FOR_PC_WIDTH+VIEW_DIV_FOR_PC_WIDTH_INCREMENT+"px";
+	ViewDivForPc1.style.backgroundImage = "url(image/right_bg.png)";
+	ViewDivForPc1.style.marginLeft = 0+"px";
 	
 
-	let ViewDivForPc = document.getElementsByClassName("ViewDivForPc")[1];
-	ViewDivForPc.style.display="block";
-	ViewDivForPc.style.width = VIEW_DIV_FOR_PC_WIDTH+VIEW_DIV_FOR_PC_WIDTH_INCREMENT+"px";
-	ViewDivForPc.style.backgroundImage = "url(image/left_bg.png)";
-	ViewDivForPc.style.marginLeft = WIDTH+VIEW_DIV_FOR_PC_WIDTH_INCREMENT_IN_INVALID_SPACE-VIEW_DIV_FOR_PC_WIDTH+"px";
+	let ViewDivForPc2 = document.getElementsByClassName("ViewDivForPc")[1];
+	ViewDivForPc2.style.display="block";
+	ViewDivForPc2.style.width = VIEW_DIV_FOR_PC_WIDTH+VIEW_DIV_FOR_PC_WIDTH_INCREMENT+"px";
+	ViewDivForPc2.style.backgroundImage = "url(image/left_bg.png)";
+	ViewDivForPc2.style.marginLeft = WIDTH+VIEW_DIV_FOR_PC_WIDTH_INCREMENT_IN_INVALID_SPACE-VIEW_DIV_FOR_PC_WIDTH+"px";
 	
 	
 	
@@ -430,7 +430,7 @@ function ResizeScreen(){
 	ViewAbaDeHistorico.style.display="block";
 	ViewAbaDeHistorico.style.width = VIEW_DIV_FOR_PC_WIDTH+VIEW_DIV_FOR_PC_WIDTH_INCREMENT+"px";
 	
-	if(Opned==false){
+	if(!Opned){
 	ViewAbaDeHistorico.style.transform = "translate("+ViewAbaDeHistorico.clientWidth+"px"+","+"0"+"px)";
 	}
 	
@@ -477,16 +477,16 @@ function ResizeScreen(){
 	ViewHistoricoTop2.style.height = ViewAbaDeHistorico.clientHeight/16+"px";
 	
 	
-	let ViewHistoricoTop2ListName = document.getElementsByClassName("ViewHistoricoTop2ListName")[0];
-	ViewHistoricoTop2ListName.style.fontSize = ViewHistoricoTop2.clientHeight/3+"px";
+	let ViewHistoricoTop2ListName1 = document.getElementsByClassName("ViewHistoricoTop2ListName")[0];
+	ViewHistoricoTop2ListName1.style.fontSize = ViewHistoricoTop2.clientHeight/3+"px";
 	
 	
-	let ViewHistoricoTop2ListName = document.getElementsByClassName("ViewHistoricoTop2ListName")[1];
-	ViewHistoricoTop2ListName.style.fontSize = ViewHistoricoTop2.clientHeight/3+"px";
+	let ViewHistoricoTop2ListName2 = document.getElementsByClassName("ViewHistoricoTop2ListName")[1];
+	ViewHistoricoTop2ListName2.style.fontSize = ViewHistoricoTop2.clientHeight/3+"px";
 	
 	
-	let ViewHistoricoTop2ListName = document.getElementsByClassName("ViewHistoricoTop2ListName")[2];
-	ViewHistoricoTop2ListName.style.fontSize = ViewHistoricoTop2.clientHeight/3+"px";
+	let ViewHistoricoTop2ListName3 = document.getElementsByClassName("ViewHistoricoTop2ListName")[2];
+	ViewHistoricoTop2ListName3.style.fontSize = ViewHistoricoTop2.clientHeight/3+"px";
 	
 	
 	let ViewHistoricoCenter = document.getElementsByClassName("ViewHistoricoCenter")[0];
