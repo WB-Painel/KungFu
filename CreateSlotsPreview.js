@@ -1,10 +1,10 @@
 function CreateSlots(){
 	
-	var R = document.getElementsByClassName("AbaDeHistorico_")[0].clientWidth/10;
+	let R = document.getElementsByClassName("AbaDeHistorico_")[0].clientWidth/10;
 	
-	var SlotsDoGanho = document.getElementsByClassName("SlotsDoGanho")[0];
+	let SlotsDoGanho = document.getElementsByClassName("SlotsDoGanho")[0];
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	Temple = document.createElement("div");
 	Temple.id="TemplePreview";
 	}
@@ -17,7 +17,7 @@ function CreateSlots(){
 	Temple.style.backgroundRepeat = "no-repeat";
 	Temple.style.backgroundPosition = "center";
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	DesignCenter = document.createElement("div");
 	DesignCenter.id="DS";
 	}
@@ -27,7 +27,7 @@ function CreateSlots(){
 	DesignCenter.style.marginLeft = 1*R+"px";
 	DesignCenter.style.display="flex";
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_1 = document.createElement("div");
 	LISTA_1.id="LISTA_1_PREVIEW";
 	}
@@ -36,11 +36,11 @@ function CreateSlots(){
 	LISTA_1.style.height = 8*R+"px";
 	
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	DesignCenter.appendChild(LISTA_1);
 	}
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_2 = document.createElement("div");
 	LISTA_2.id="LISTA_2_PREVIEW";
 	}
@@ -49,11 +49,11 @@ function CreateSlots(){
 	LISTA_2.style.height = 8*R+"px";
 	
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	DesignCenter.appendChild(LISTA_2);
 	}
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_3 = document.createElement("div");
 	LISTA_3.id="LISTA_3_PREVIEW";
 	}
@@ -61,13 +61,13 @@ function CreateSlots(){
 	LISTA_3.style.width = 2*R+R/3+"px";
 	LISTA_3.style.height = 8*R+"px";
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	DesignCenter.appendChild(LISTA_3);
 	Temple.appendChild(DesignCenter);
 	SlotsDoGanho.appendChild(Temple);
 	}
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	BLOCO_1 = document.createElement("div");
 	}
 	
@@ -76,11 +76,11 @@ function CreateSlots(){
 	BLOCO_1.style.height = DesignCenter.clientHeight/3+"px";
 	BLOCO_1.style.backgroundSize = "50% 50%";
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_1.appendChild(BLOCO_1);
 	}
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	BLOCO_2 = document.createElement("div");
 	}
 	
@@ -89,11 +89,11 @@ function CreateSlots(){
 	BLOCO_2.style.height = DesignCenter.clientHeight/3+"px";
 	BLOCO_2.style.backgroundSize = "50% 50%";
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_1.appendChild(BLOCO_2);
 	}
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	BLOCO_3 = document.createElement("div");
 	}
 	
@@ -102,13 +102,13 @@ function CreateSlots(){
 	BLOCO_3.style.height = DesignCenter.clientHeight/3+"px";
 	BLOCO_3.style.backgroundSize = "50% 50%";
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_1.appendChild(BLOCO_3);
 	}
 	
 	
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	BLOCO_4 = document.createElement("div");
 	}
 	BLOCO_4.id="SLOT_4";
@@ -116,11 +116,11 @@ function CreateSlots(){
 	BLOCO_4.style.height = DesignCenter.clientHeight/3+"px";
 	BLOCO_4.style.backgroundSize = "50% 50%";
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_2.appendChild(BLOCO_4);
 	}
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	BLOCO_5 = document.createElement("div");
 	}
 	
@@ -129,11 +129,11 @@ function CreateSlots(){
 	BLOCO_5.style.height = DesignCenter.clientHeight/3+"px";
 	BLOCO_5.style.backgroundSize = "50% 50%";
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_2.appendChild(BLOCO_5);
 	}
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	BLOCO_6 = document.createElement("div");
 	}
 	
@@ -142,11 +142,11 @@ function CreateSlots(){
 	BLOCO_6.style.height = DesignCenter.clientHeight/3+"px";
 	BLOCO_6.style.backgroundSize = "50% 50%";
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_2.appendChild(BLOCO_6);
 	}
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	BLOCO_7 = document.createElement("div");
 	}
 	
@@ -156,11 +156,11 @@ function CreateSlots(){
 	BLOCO_7.style.backgroundSize = "50% 50%";
 	
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_3.appendChild(BLOCO_7);
 	}
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	BLOCO_8 = document.createElement("div");
 	}
 	
@@ -170,11 +170,11 @@ function CreateSlots(){
 	BLOCO_8.style.backgroundSize = "50% 50%";
 	
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_3.appendChild(BLOCO_8);
 	}
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	BLOCO_9 = document.createElement("div");
 	}
 	
@@ -184,9 +184,9 @@ function CreateSlots(){
 	BLOCO_9.style.backgroundSize = "50% 50%";
 	
 	
-	if(SlotsDaPreviewCriado==false){
+	if(!SlotsDaPreviewCriado){
 	LISTA_3.appendChild(BLOCO_9);
 	}
 	
 	return SlotsDoGanho;
-	}
+}
