@@ -1,8 +1,10 @@
+let TEMPLE_HEIGHT = 0;
+let BLOCO_HEIGHT = 0;
+let SlotsDaPreviewCriado = false;
+  
 function ResizeScreen(){
 	
-  let TEMPLE_HEIGHT = 0;
-  let BLOCO_HEIGHT = 0;
-  let SlotsDaPreviewCriado = false;
+  
   
   setTimeout(function(){
 		
@@ -166,14 +168,14 @@ function ResizeScreen(){
 	LISTA_3.style.width = LISTA_1.clientWidth/2+"px";
 	
 	
-	if(BLOCO_HEIGHT==0){
+	
 	BLOCO_HEIGHT = parseInt(VIEW_LISTAS.clientHeight/3);
 	
 	
 	
 	
 	TEMPLE_HEIGHT = 4*Telhado.clientHeight;
-	}
+	
 
 
  
