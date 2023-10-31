@@ -1,3 +1,17 @@
+let Temple;
+	let DesignCenter;
+	let LISTA_1;
+	let LISTA_2;
+	let LISTA_3;
+	let BLOCO_1;
+	let BLOCO_2;
+	let BLOCO_3;
+	let BLOCO_4;
+	let BLOCO_5;
+	let BLOCO_6;
+	let BLOCO_7;
+	let BLOCO_8;
+	let BLOCO_9;
 function CreateSlots(){
 	
 	let R = document.getElementsByClassName("AbaDeHistorico_")[0].clientWidth/10;
