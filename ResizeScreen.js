@@ -449,9 +449,10 @@
 	ViewAbaDeHistorico.style.display="block";
 	ViewAbaDeHistorico.style.width = VIEW_DIV_FOR_PC_WIDTH+VIEW_DIV_FOR_PC_WIDTH_INCREMENT+"px";
 	
-	if(!Opned){
-	ViewAbaDeHistorico.style.transform = "translate("+ViewAbaDeHistorico.clientWidth+"px"+","+"0"+"px)";
-	}
+	
+	FECHAR_ABA_DE_HISTORICO_1();
+	
+	
 	
 	
 	let NoHistory = document.getElementsByClassName("NoHistory")[0];
@@ -614,9 +615,8 @@
 	ViewAbaDeHistorico_.style.width = VIEW_DIV_FOR_PC_WIDTH+VIEW_DIV_FOR_PC_WIDTH_INCREMENT+"px";
 	
 	ViewAbaDeHistorico_.style.height = ScreenHeight_2+"px";
-	if(!Opned2){
-	ViewAbaDeHistorico_.style.transform = "translate("+ViewAbaDeHistorico_.clientWidth+"px"+","+"0"+"px)";
-	}
+		
+	FECHAR_ABA_DE_HISTORICO_2();
 	
 	
 	let ViewHistoricoTop_ = document.getElementsByClassName("ViewHistoricoTop_")[0];
@@ -818,9 +818,9 @@
 	let AbaDePagamentos = document.getElementsByClassName("AbaDePagamentos")[0];
 	AbaDePagamentos.style.width = VIEW_DIV_FOR_PC_WIDTH+VIEW_DIV_FOR_PC_WIDTH_INCREMENT+"px";
 	AbaDePagamentos.style.height = ScreenHeight_2+"px";
-	if(!Opned3){
-	AbaDePagamentos.style.transform = "translate("+AbaDePagamentos.clientWidth+"px"+","+"0"+"px)";
-	}
+
+			FECHAR_ABA_DE_PAGAMENTOS();
+	
 	
 	let AbaDePagamentosActionBar = document.getElementsByClassName("AbaDePagamentosActionBar")[0];
 	AbaDePagamentosActionBar.style.height = AbaDePagamentos.clientHeight/10+"px";
