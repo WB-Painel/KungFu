@@ -1,11 +1,11 @@
 let Opned = false;
 function CloseDrawer(DrawerName, DrawerOpned){
-	DrawerOpned=false;
+	Opned=false;
 	let DrawerWidth = DrawerName.clientWidth/12;
 	let count1 = 0;
 	let count2 = 0;
 	
-	var int = setInterval(function(){
+	let int = setInterval(function(){
 	
 	DrawerWidth = DrawerWidth + count1;
 	
@@ -25,7 +25,7 @@ function CloseDrawer(DrawerName, DrawerOpned){
 }
 
 function OpenDrawer(DrawerName,DrawerOpned){
-	DrawerOpned=true;
+	Opned=true;
 	let ScreenWidth = document.getElementsByTagName("body")[0].clientWidth;
 	let DrawerWidth = DrawerName.clientWidth;
 	let count1 = 12;
@@ -35,7 +35,7 @@ function OpenDrawer(DrawerName,DrawerOpned){
 		Multiply = 4;
 	}
 	
-	var int = setInterval(function(){
+	let int = setInterval(function(){
 	ScreenWidth = ScreenWidth - Multiply*DrawerWidth/count1+1.3;
 	DrawerName.style.transform = "translate("+ScreenWidth+"px"+","+"0px)";
 	count2++;
