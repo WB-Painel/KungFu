@@ -96,8 +96,9 @@
 	clearTimeout();
 	
 	},200/8);
-	
-	}else{
+
+	return;
+	}
 		
 	
 	let FUNDO = document.getElementsByClassName("Fundo")[0];
@@ -1008,7 +1009,7 @@
 	}
 	
 	
-	}
+	
 	
 	
 	
