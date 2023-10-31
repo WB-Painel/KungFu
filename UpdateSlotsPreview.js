@@ -1,4 +1,14 @@
-function SetSlots(SLOT_1,SLOT_2,SLOT_3,SLOT_4,SLOT_5,SLOT_6,SLOT_7,SLOT_8,SLOT_9){
+function SetSlots(SLOTS_ARRAY){
+
+	let SLOT_1 = SLOTS_ARRAY[0];
+	let SLOT_2 = SLOTS_ARRAY[1];
+	let SLOT_3 = SLOTS_ARRAY[2];
+	let SLOT_4 = SLOTS_ARRAY[3];
+	let SLOT_5 = SLOTS_ARRAY[4];
+	let SLOT_6 = SLOTS_ARRAY[5];
+	let SLOT_7 = SLOTS_ARRAY[6];
+	let SLOT_8 = SLOTS_ARRAY[7];
+	let SLOT_9 = SLOTS_ARRAY[8];
 	
 	document.getElementsByClassName("AbaDeHistoricoCarregamento_")[0].style.visibility="visible";
 	
