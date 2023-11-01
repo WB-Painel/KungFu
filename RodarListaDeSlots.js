@@ -1,3 +1,4 @@
+import { LIST_1_BLOCOS_HEIGHT } from 'AddSlotsToLists.js';
 function start2(){
 		
 		let COUNT_1 = -LIST_1_BLOCOS_HEIGHT;
