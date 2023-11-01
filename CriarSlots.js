@@ -35,9 +35,9 @@ function BLOCOS_DA_LISTA(){
 	  
 	  function randomEmojis(){
 
-	  var s = "";
-	  var maximum = 19;
-	  var minimum = 1;
+	  let s = "";
+	  let maximum = 19;
+	  let minimum = 1;
 		
 	  var randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 
