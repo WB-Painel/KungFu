@@ -12,7 +12,7 @@
 	  background-position:center;
 	  background-size:100% 100%;
 	  z-index:5000;
-		  opacity:50%;
+		  opacity:10%;
 	  }
 	  
 	  .Fundo{
@@ -803,7 +803,7 @@
 	  background-repeat:no-repeat;
 	  background-position:center;
 	  
-	  opacity:0%;
+	  opacity:50%;
 	  
 	 
 	  }
