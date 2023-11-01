@@ -39,7 +39,7 @@ function BLOCOS_DA_LISTA(){
 	  let maximum = 19;
 	  let minimum = 1;
 		
-	  var randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
+	  let randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 
 	  if(randomnumber==1){
 	  return s+"image/po.png";
