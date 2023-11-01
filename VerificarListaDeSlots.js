@@ -1,8 +1,9 @@
+let isSlot = false;
 function VerificarListaDeSlots(){
 	  
-	  let isSlot = false;
 	  
-	  ResetRotatePlayButton();
+	  
+	  
 	  
 	  let LISTA_DE_SLOTS_IGUAIS = 0;
 	 
