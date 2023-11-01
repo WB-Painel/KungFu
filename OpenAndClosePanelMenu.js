@@ -22,7 +22,7 @@ function OpenAndClosePanelMenu(){
 			}
 							
 			if(PanelMenuAberto){
-			var OpenPanelMenuInterval = setInterval(function(){
+		        let OpenPanelMenuInterval = setInterval(function(){
 			if(PanelMenuWidth < ViewPanelMenu.clientWidth){
 			PanelMenuWidth = PanelMenuWidth+10;
 			ViewPanelMenu.style.transform = "translate("+PanelMenuWidth+"px,0px)";
