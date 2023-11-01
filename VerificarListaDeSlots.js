@@ -1,6 +1,6 @@
 function VerificarListaDeSlots(){
 	  
-	  isSlot = false;
+	  let isSlot = false;
 	  
 	  ResetRotatePlayButton();
 	  
