@@ -248,6 +248,8 @@ function VerificarListaDeSlots(){
 	  SlotTime = 100;
 		
 	}
+
+}
 	
 	
 	function ANIMATION_TOP_RIGHT_TO_BOTTOM_LEFT(ITEM_1_LIST_1,ITEM_2_LIST_2,ITEM_3_LIST_3, LISTA_1, LISTA_4, LISTA_9){
@@ -462,5 +464,3 @@ function VerificarListaDeSlots(){
 	  }
 	  
 	}
-		
-}
