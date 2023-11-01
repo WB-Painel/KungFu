@@ -41,59 +41,31 @@ function BLOCOS_DA_LISTA(){
 		
 	  let randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 
-	  if(randomnumber==1){
+	  if(randomnumber==1||randomnumber==10){
 	  return s+"image/po.png";
 	  }
-	  if(randomnumber==2){
+	  if(randomnumber==2||randomnumber==11){
 	  return s+"image/tai_lung.png";
 	  }
-	  if(randomnumber==3){
+	  if(randomnumber==3||randomnumber==12){
 	  return s+"image/mestre_shifu.png";
 	  }
-	  if(randomnumber==4){
+	  if(randomnumber==4||randomnumber==13){
 	  return s+"image/tigressa.png";
 	  }
-	  if(randomnumber==5){
+	  if(randomnumber==5||randomnumber==14){
 	  return s+"image/louva_deus.png";
 	  }
-	  if(randomnumber==6){
+	  if(randomnumber==6||randomnumber==15){
 	  return s+"image/oogway.png";
 	  }
-	  if(randomnumber==7){
+	  if(randomnumber==7||randomnumber==16){
 	  return s+"image/mestre_macaco.png";
 	  }
-	  if(randomnumber==8){
+	  if(randomnumber==8||randomnumber==17){
 	  return s+"image/garca.png";
 	  }
-	  if(randomnumber==9){
-	  return s+"image/mestre_vibora.png";
-	  }
-	  
-	  if(randomnumber==10){
-	  return s+"image/po.png";
-	  }
-	  if(randomnumber==11){
-	  return s+"image/tai_lung.png";
-	  }
-	  if(randomnumber==12){
-	  return s+"image/mestre_shifu.png";
-	  }
-	  if(randomnumber==13){
-	  return s+"image/tigressa.png";
-	  }
-	  if(randomnumber==14){
-	  return s+"image/louva_deus.png";
-	  }
-	  if(randomnumber==15){
-	  return s+"image/oogway.png";
-	  }
-	  if(randomnumber==16){
-	  return s+"image/mestre_macaco.png";
-	  }
-	  if(randomnumber==17){
-	  return s+"image/garca.png";
-	  }
-	  if(randomnumber==18){
+	  if(randomnumber==9||randomnumber==18){
 	  return s+"image/mestre_vibora.png";
 	  }
 	  
@@ -101,4 +73,4 @@ function BLOCOS_DA_LISTA(){
 	  return s+"image/manopla.png";
 	  }
 	  
-		  }
+	  }
