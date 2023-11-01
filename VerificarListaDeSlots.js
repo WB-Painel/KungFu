@@ -341,7 +341,7 @@ function VerificarListaDeSlots(){
 		
 	  if(NoModoAutomatico&&VerificarSePossuiSaldoSuficiente){
 	  
-	  if(NoModoTurbo==true){
+	  if(NoModoTurbo){
 		
 	  setTimeout(function(){
 		
