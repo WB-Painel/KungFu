@@ -36,40 +36,40 @@ function BLOCOS_DA_LISTA(){
 	  function randomEmojis(){
 
 	  let s = "";
-	  let maximum = 19;
+	  let maximum = 10;
 	  let minimum = 1;
 		
 	  let randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 
-	  if(randomnumber==1||randomnumber==10){
+	  if(randomnumber==1){
 	  return s+"image/po.png";
 	  }
-	  if(randomnumber==2||randomnumber==11){
+	  if(randomnumber==2){
 	  return s+"image/tai_lung.png";
 	  }
-	  if(randomnumber==3||randomnumber==12){
+	  if(randomnumber==3){
 	  return s+"image/mestre_shifu.png";
 	  }
-	  if(randomnumber==4||randomnumber==13){
+	  if(randomnumber==4){
 	  return s+"image/tigressa.png";
 	  }
-	  if(randomnumber==5||randomnumber==14){
+	  if(randomnumber==5){
 	  return s+"image/louva_deus.png";
 	  }
-	  if(randomnumber==6||randomnumber==15){
+	  if(randomnumber==6){
 	  return s+"image/oogway.png";
 	  }
-	  if(randomnumber==7||randomnumber==16){
+	  if(randomnumber==7){
 	  return s+"image/mestre_macaco.png";
 	  }
-	  if(randomnumber==8||randomnumber==17){
+	  if(randomnumber==8){
 	  return s+"image/garca.png";
 	  }
-	  if(randomnumber==9||randomnumber==18){
+	  if(randomnumber==9){
 	  return s+"image/mestre_vibora.png";
 	  }
 	  
-	  if(randomnumber==19){
+	  if(randomnumber==10){
 	  return s+"image/manopla.png";
 	  }
 	  
