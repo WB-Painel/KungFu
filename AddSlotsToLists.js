@@ -3,7 +3,9 @@ let LIST_1_BLOCOS_HEIGHT = 0;
 	  let LIST_2_BLOCOS_HEIGHT = 0;
 	  
 	  let LIST_3_BLOCOS_HEIGHT = 0;
-	  
+
+export { LIST_1_BLOCOS_HEIGHT };
+
 function C2(){
 	  
 	 let LISTA_1 = document.getElementsByClassName("LISTA_1")[0];
