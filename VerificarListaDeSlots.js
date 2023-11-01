@@ -1,4 +1,5 @@
 let isSlot = false;
+let SlotTime = 100;
 function VerificarListaDeSlots(){
 	  
 	  
