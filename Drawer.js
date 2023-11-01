@@ -1,4 +1,6 @@
 let Opned = false;
+let Opned2 = false;
+let Opned3 = false;
 function CloseDrawer(DrawerName, DrawerOpned){
 	Opned=false;
 	let DrawerWidth = DrawerName.clientWidth/12;
