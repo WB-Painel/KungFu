@@ -1,27 +1,27 @@
 function BLOCOS_DA_LISTA(){
 	  
-	  var bloco_fundo = document.createElement("div");
+	  let bloco_fundo = document.createElement("div");
 	  bloco_fundo.setAttribute("class","Bloco_fundo");
 	  bloco_fundo.style.height = BLOCO_HEIGHT+"px";
 	  
 	  
-	  var bloco_brilho = document.createElement("div");
+	  let bloco_brilho = document.createElement("div");
 	  bloco_brilho.setAttribute("class","Bloco_brilho");
 	  bloco_brilho.style.height = 1*BLOCO_HEIGHT+"px";
 	  bloco_brilho.style.width = 1*BLOCO_HEIGHT+"px";
 	  
 	  
-	  var bloco = document.createElement("div");
+	  let bloco = document.createElement("div");
 	  bloco.setAttribute("class","Bloco");
 	  bloco.style.height = BLOCO_HEIGHT+"px";
 	  
 	  if(window.screen.width>window.screen.height){
 	  //PC
-	  var PersonagemHeight = BLOCO_HEIGHT/1;
+	  let PersonagemHeight = BLOCO_HEIGHT/1;
 	  bloco.style.backgroundSize = PersonagemHeight+"px"+" "+PersonagemHeight+"px";
 	  }else{
 	  //Mobile
-	  var PersonagemHeight = BLOCO_HEIGHT/1-BLOCO_HEIGHT/6;
+	  let PersonagemHeight = BLOCO_HEIGHT/1-BLOCO_HEIGHT/6;
 	  bloco.style.backgroundSize = PersonagemHeight+"px"+" "+PersonagemHeight+"px";
 	  }
 	 
@@ -32,10 +32,10 @@ function BLOCOS_DA_LISTA(){
 	 
 	  }
 	  
-	  /*
+	  
 	  function randomEmojis(){
 
-	  var s = "..";
+	  var s = "";
 	  var maximum = 19;
 	  var minimum = 1;
 		
@@ -101,4 +101,4 @@ function BLOCOS_DA_LISTA(){
 	  return s+"image/manopla.png";
 	  }
 	  
-	  }*/
+		  }
