@@ -220,7 +220,7 @@ function NewGanho(
 			  
 			  }
 			  
-			  function ATUALIZAR_ANIMATION_GANHO(){
+			  function ATUALIZAR_ANIMATION_GANHO(GanhoLength){
 				  
 				  if(
 			  Count_3==quantia_maxima_de_reais_a_chegar_part_1&&
